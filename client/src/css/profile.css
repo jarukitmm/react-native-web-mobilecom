@@ -1,0 +1,26 @@
+.profile_field{
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.profile_field .container-fluid{
+    text-align: center;
+}
+
+.edit_profile{
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.edit_profile input{
+    border-radius: 30px;
+}
+
+.edit_profile input:hover{
+    border-radius: 30px;
+    border-color: aqua;
+}

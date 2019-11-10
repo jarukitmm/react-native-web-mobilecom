@@ -1,0 +1,29 @@
+doctype html
+html
+  head
+    title= title
+  body
+    
+    form(name='addproduct',method='POST',action='addproduct')
+      div
+        label(for='name') Name
+        input(name='name' , type='text', placeholder='name')
+      div
+        label(for='cost') Cost
+        input(name='cost' , type='text', placeholder='cost')
+      div
+        label(for='subject') Subject
+        input(name='subject' , type='text', placeholder='subject')
+      div
+        label(for='level') Level
+        input(name='level' , type='text', placeholder='level')
+      div
+        label(for='image') Image Link
+        input(name='image' , type='text', placeholder='image')
+      div
+        label(for='description') Description
+        input(name='description' , type='text', placeholder='description')
+      div
+        input(type='submit',value='addproduct')
+        
+        

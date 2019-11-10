@@ -1,0 +1,49 @@
+.signin_signout_button{
+    margin: 0px;
+}
+
+.signin_signout_button .RML-btn{
+    /* margin-top: 2px; */
+    border-radius: 23px;
+    border-color: white;
+    color: white;
+    background-color: #fac229;
+    border: 1px solid;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.signin_signout_button .RML-btn:hover{
+    margin-top: 2px;
+    border-radius: 30px;
+    border-color: black;
+    color: black;
+    background-color: #fac229;
+    border: 1px solid;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.signin_signout_button .showusername {
+   color: white;
+   margin-left: 1em;
+   margin-right: 1em;
+   float: left; 
+    border-color: #fac229; 
+}
+
+.RML-login-modal-box-content .RML-login-modal-mode{
+    background-color: #fac229;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.RML-login-modal-box{
+    border-radius: 30px;
+}
+
+/* .RML-login-modal-mode{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: white; 
+} */

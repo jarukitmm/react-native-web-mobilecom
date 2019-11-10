@@ -1,0 +1,66 @@
+.menutab{
+    margin-top: 20px;
+    width: 100%;
+    height: min-content;
+    /* background-color: red; */
+}
+
+.menutab .nav-tabs{ 
+    /* margin-top: 20px; */
+    border-bottom: none;
+    width: 100%;
+    /* background-color: pink; */
+ } 
+
+.menutab .nav-link{
+    color: black;
+    text-decoration: none;
+    background-color: rgb(250, 194, 41);
+    border-radius: 30px;
+    border-color: rgb(250, 194, 41);
+}
+
+.menutab .nav-link:hover{
+    color:white;
+    text-decoration: none;
+    background-color: grey;
+    border-color: grey;
+    box-shadow: 0px;
+}
+
+.menutab .nav-item.show .nav-link{
+    color:white;
+    text-decoration: none;
+    background-color: grey;
+    border-color: grey;
+    box-shadow: 0px;
+}
+
+.menutab .nav-tabs .dropdown-menu{
+    text-decoration: none;
+    background-color: grey;
+    border-color: white;
+    box-shadow: 0px;
+    border-radius: 23px;
+}
+
+.dropdown-item{
+    color: white;
+}
+
+.dropdown-item:hover{
+    color: rgb(250, 194, 41);
+    border-radius: 30px;
+    transition-duration: 1s;
+}
+
+.menutab .nav-link:focus{
+    color:white;
+    text-decoration: none;
+    background-color: grey;
+    border-color: grey;
+    box-shadow: 0px;
+}
+
+
+

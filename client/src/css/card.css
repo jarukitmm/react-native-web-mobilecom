@@ -1,0 +1,100 @@
+.card{
+    /* align-items: center; */
+    /* float: left; */
+    width: 400px;
+    /* height: inherit; */
+    width: 400px;
+    margin: 10px;
+    /* box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border-radius: 30px;
+}
+
+.card:hover{
+    /* align-items: center; */
+    /* float: left; */
+    width: 400px;
+    /* height: inherit; */
+    width: 400px;
+    margin: 10px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+    transition-duration: 0.5s;
+    /* background-color: rgb(250, 194, 41); */
+}
+
+.card .row{
+    margin:0px;
+}
+
+.card #col_l{
+    /* align-items: center; */
+    margin: 0px;
+    padding: 0px;
+}
+
+.card #col_l img{
+    /* align-items: center; */
+    margin-top: 5em;
+    width: 100%;
+}
+
+.card #col_r{
+    background-color: gray;
+    box-shadow: -8px 0 8px 0 rgb(250, 194, 41);
+    color: white;
+    /* height: -webkit-fill-available; */
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    /* height: initial; */
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.card #col_r .card-body{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.card #col_r .card-body .card-title{
+    /* background-color: black; */
+    /* text-shadow:  */
+}
+
+.card #col_r .card-deck{
+    /* background-color: aliceblue; */
+    box-shadow: 2px;
+    width: 100%;
+    margin-left: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.card #col_r .card-deck #price{
+    color: black;
+    background-color: rgb(250, 194, 41);
+    padding: 3px;
+    box-shadow: 5px 5px black;
+    margin-bottom: 10px;
+}
+
+.card #col_r .card-deck #add_to_cart{
+    color: black;
+    background-color: rgb(250, 194, 41);
+    padding: 3px;
+    /* box-shadow: 5px 5px black; */
+    margin-bottom: 10px;
+}
+
+.card #col_r .card-deck #add_to_cart:hover{
+    color: black;
+    background-color: rgb(250, 194, 41);
+    padding: 4px;
+    /* box-shadow: 5px 5px black; */
+    margin-bottom: 10px;
+    transition-duration: 0.5s;
+}
+
+

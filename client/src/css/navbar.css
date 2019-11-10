@@ -1,0 +1,49 @@
+.fixed-top{
+    background-color: rgb(250, 194, 41);
+
+}
+
+.fixed-top .navbar-expand-md .logoname{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-style: oblique;
+}
+
+.fixed-top .navbar-nav .nav-link{
+    color: white;
+    border: 1px solid;
+    border-radius: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-right: 3px;
+}
+
+.fixed-top .navbar-nav .nav-item a{
+    margin-right: 4px;
+}
+
+.fixed-top .navbar-nav .nav-item a{
+    color: white;
+    border: 1px solid;
+    border-radius: 30px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 1px solid;
+}
+
+.fixed-top .navbar-nav .nav-item a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-expand-md{
+    background-color: #fac229;
+}
+
+.ml-auto .navbar-nav{
+    text-align: center;
+    align-items: center;
+}
